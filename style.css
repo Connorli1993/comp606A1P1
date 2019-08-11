@@ -1,0 +1,116 @@
+
+body {
+  background:url('img/background5.jpg');
+  background-size: cover;
+  font-family: Arial;
+  background-repeat:no-repeat;
+  background-attachment:fixed;
+
+}
+
+
+.wrap{
+  max-width: 350px;
+  border-radius: 20px;
+  margin: auto;
+  background: rgba(0, 0, 0, 0.8);
+  box-sizing: border-box;
+  padding: 40px;
+  color: #fff;
+  margin-top:100px;
+}
+
+h2{
+  text-align: center;
+}
+
+td{
+  color: #527881;
+}
+
+
+input {
+  font-family: 'Lucida Grande', Tahoma, Verdana, sans-serif;
+  font-size: 14px;
+}
+
+input[type=text], input[type=username] {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 12px 5px;
+  background: rgba(0, 0, 0, 0.10);
+  outline: none;
+  border: none;
+  border-bottom: 1px dotted #fff;
+  color: #fff;
+  border-radius: 5px;
+  margin: 5px;
+  font-weight: bold;
+}
+
+input[type=text], input[type=email] {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 12px 5px;
+  background: rgba(0, 0, 0, 0.10);
+  outline: none;
+  border: none;
+  border-bottom: 1px dotted #fff;
+  color: #fff;
+  border-radius: 5px;
+  margin: 5px;
+  font-weight: bold;
+  }
+
+input[type=text], input[type=password] {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 12px 5px;
+  background: rgba(0, 0, 0, 0.10);
+  outline: none;
+  border: none;
+  border-bottom: 1px dotted #fff;
+  color: #fff;
+  border-radius: 5px;
+  margin: 5px;
+  font-weight: bold;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  border-color: #7dc9e2;
+  outline-color: #dceefc;
+  outline-offset: 0;
+}
+
+input[type=submit] {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 10px 0px;
+  margin-top: 30px;
+  outline: none;
+  border: none;
+  background: #60adde;
+  opacity: 0.7;
+  border-radius: 20px;
+  font-size: 20px;
+  color: #fff;
+}
+
+input[type = submit]:hover{
+  background: #003366;
+  opacity: 0.7;
+}
+
+
+#error_msg{
+	width: 50%;  
+	margin: 5px auto; 
+	height: 30px; 
+	border: 1px solid #FF0000; 
+	background: #FFB9B8; 
+	color: #FF0000;
+	text-align: center;
+	padding-top: 10px;
+}
+
+
